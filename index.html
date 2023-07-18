@@ -1,59 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=1920"/>
-    <meta name="description"
-          content="Tizen Download API Demo" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>laudu</title>
+    <style>
+        /* .new {
+            background-image: url('new.jpg');
+            
+        } */
 
-    <title>Tizen Download API</title>
+        .container {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
 
-    <script type='text/javascript' src='$WEBAPIS/webapis/webapis.js'></script>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
 </head>
 
-<body bgcolor="blue ">
+<body>
+    <!-- <div class="new">
+        <img src="new.jpg" ; height="100%" ;width="100%">
+        <p>Akash </p>
+        </img>
+    </div> -->
+    <div class="container">
+        <img src="new.jpg" alt="Snow" style="width:100%;opacity: 0.9;height: 100vh;">
 
-    <h1>Tizen Download API</h1>
+        <div class="centered" style="font-size: 22px;color: black;font-weight: 800;margin-top: -250px;">The breathtaking Amboli Waterfalls is located in the hill station of Amboli in south
+            Maharashtra in India. Situated in the Sahyadri Hills of the western part of India, Amboli is situated at the
+            height of 690 metres above the sea level and is counted as one of the eco spots of the world since it is
+            home to unusual species of flora and fauna. The Amboli Waterfall is one of the most famous tourist
+            attractions that can be found in Amboli and is visited by numerous tourists all through the year.
 
-    <div class="left">
-        <h2>Available buttons/actions:</h2>
-
-        <div>
-            1 - Downloaded file lists<br>
-            2 - Start download - small file<br>
-            3 - Start download - large file<br>
-            Pause - Pause download<br>
-            Play - Resume download<br>
-            Stop - Cancel download<br>
-            0 - Clear logs
         </div>
-
-        <div id="progress" class="progress">
-            <div id="bar" class="bar"></div>
-        </div>
-
-        <fieldset>
-            <legend>Downloaded files:</legend>
-            <div id="fileList" class="logs"></div>
-        </fieldset>
-
-        <fieldset>
-            <legend>Logs</legend>
-            <div id="logs" class="logs"></div>
-        </fieldset>
     </div>
-    <div class="right">
-        <h2>Info</h2>
-
-        <p>This application demonstrates the usage of Tizen download API</p>
-
-        <p>The application downloads files from <code>http://techslides.com</code> and <code>http://download.blender.org</code>. If these domains are not accessible it will not work.<br>
-
-            You can change the source location of files to download by changing the contents of <code>url1</code> and <code>url2</code> variables in <code>main.js</code> file</cide></p>
-    </div>
-
-    <script src="main.js"></script>
 </body>
+
 </html>
